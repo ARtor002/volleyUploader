@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">volley</string>
+    <string name="loginTv">Login</string>
+    <string name="emailEdtHint">Email</string>
+    <string name="passwordEdtHint">Password</string>
+    <string name="newPasswordEdtHint">New Password</string>
+    <string name="emailErrorTv">Email Error</string>
+    <string name="errorTv">Email Or Password Is Wrong</string>
+    <string name="PassErrorTv">choose stronger Password</string>
+    <string name="forgetPasswordTv">Forget Password?</string>
+    <string name="forgetPasswordTv2">Forget Password</string>
+    <string name="rememberCheckBox">Remember Me</string>
+    <string name="signInBtn">Sign In</string>
+    <string name="socialSignUp">Social Sign Up</string>
+    <string name="newUserTv">New User?</string>
+    <string name="haveAccTv">Have An Account?</string>
+    <string name="signUpTv">Sign Up</string>
+    <string name="recoveryPassTv">Recovery Password</string>
+    <string name="toastLoginFailed">Login Failed</string>
+    <string name="toastConnectFailed">Can Not Connect To Server :(</string>
+    <string name="codeTv">Code</string>
+    <string name="confirmBtn">Confirm</string>
+    <string name="changePasswordBtn">Change Password</string>
+    <string name="toastEmailExist">Email already exist</string>
+    <string name="toastWrongCode">Verification Code Is Wrong :(</string>
+    <string name="toastSentCode">Verification Code Sent To Your Email </string>
+    <string name="receiveCodeBtn">Receive Code</string>
+    <string name="fromGallery">From Gallery</string>
+    <string name="fromCamera">From Camera</string>
+    <string name="logOut">Log Out</string>
+    <string name="deleteAccount">Delete Account</string>
+
+
+</resources>

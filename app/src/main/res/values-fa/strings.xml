@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">والی</string>
+    <string name="loginTv">ورود</string>
+    <string name="emailEdtHint">ایمیل</string>
+    <string name="passwordEdtHint">رمزعبور</string>
+    <string name="emailErrorTv">ایمیل اشتباه است</string>
+    <string name="errorTv">ایمیل یا رمز عبور اشتباه است</string>
+    <string name="PassErrorTv">رمز قوی تری انتخاب کنید</string>
+    <string name="forgetPasswordTv">فراموشی رمز؟</string>
+    <string name="rememberCheckBox">من را به خاطر بسپار</string>
+    <string name="signInBtn">ورود</string>
+    <string name="socialSignUp">ثبت نام با روش دیگر</string>
+    <string name="newUserTv">کاربر جدید؟</string>
+    <string name="haveAccTv">اکانت داری؟</string>
+    <string name="signUpTv">ثبت نام</string>
+    <string name="toastLoginFailed">ورود با خطا مواجه شد</string>
+    <string name="toastConnectFailed">خطا در اتصال به سرور</string>
+    <string name="codeTv">کد</string>
+    <string name="confirmBtn">تایید</string>
+    <string name="toastEmailExist">ایمیل وارد شده وجود دارد</string>
+    <string name="toastWrongCode">کد وارد شده صحیح نمی‌باشد</string>
+    <string name="toastSentCode">کد تایید به ایمیل شما ارسال شد</string>
+    <string name="recoveryPassTv">بازیابی رمز عبور</string>
+    <string name="receiveCodeBtn">دریافت کد</string>
+    <string name="changePasswordBtn">تغییر رمز</string>
+    <string name="forgetPasswordTv2">فراموشی رمز</string>
+    <string name="newPasswordEdtHint">رمز جدید</string>
+    <string name="fromGallery">عکس از گالری</string>
+    <string name="fromCamera">عکس از دوربین</string>
+    <string name="logOut">خروج از حساب</string>
+    <string name="deleteAccount">حذف حساب کاربری</string>
+</resources>

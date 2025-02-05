@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676757795922",
+    "project_id": "volley-36ee2",
+    "storage_bucket": "volley-36ee2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676757795922:android:49a3124c6670d48d011b8b",
+        "android_client_info": {
+          "package_name": "ir.ARtor.volley"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC2wg2kqQ7DVYgFBOXMQUASK6fTD7U-AU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

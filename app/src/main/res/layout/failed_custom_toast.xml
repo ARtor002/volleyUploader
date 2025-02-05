@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorRed"
+    app:cardCornerRadius="8dp"
+    android:elevation="2dp"
+    app:chainUseRtl="true">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/round_close_24"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Failed"
+            android:layout_toEndOf="@+id/imageView"
+            android:textSize="12sp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="3dp"
+            android:textColor="@color/colorWhite1"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
