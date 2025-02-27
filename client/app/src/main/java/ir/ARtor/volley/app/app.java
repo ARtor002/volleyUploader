@@ -1,5 +1,7 @@
 package ir.ARtor.volley.app;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -16,7 +18,8 @@ public class app {
     public static final String TAG = "volley";
     public static final String BASE_URL = "http://artor.is-great.net/";
     public static final String LOCAL = "http://192.168.43.114:81/volley/";
-    public static final String LOCAL2 = "http://192.168.42.59:81/volley/";
+    public static final String LOCAL2 = "http://192.168.42.59/volley/";
+
 
 
 
@@ -29,11 +32,12 @@ public class app {
         Toast.makeText(application.getContext(), message, Toast.LENGTH_SHORT).show();
     }
 
+
     public static void successToast(String message){
         Toast toast = new Toast(application.getContext());
         View view = LayoutInflater.from(application.getContext()).inflate(R.layout.success_custom_toast, null);
 
-        ImageView imageView = view.findViewById(R.id.imageView);
+        ImageView imageView = view.findViewById(R.id.imageViewItem);
         TextView textView = view.findViewById(R.id.textView);
 
         imageView.setImageResource(R.drawable.round_check_24);
@@ -48,7 +52,7 @@ public class app {
         Toast toast = new Toast(application.getContext());
         View view = LayoutInflater.from(application.getContext()).inflate(R.layout.failed_custom_toast, null);
 
-        ImageView imageView = view.findViewById(R.id.imageView);
+        ImageView imageView = view.findViewById(R.id.imageViewItem);
         TextView textView = view.findViewById(R.id.textView);
 
         imageView.setImageResource(R.drawable.round_close_24);
@@ -57,6 +61,12 @@ public class app {
         toast.setView(view);
         toast.setGravity(Gravity.BOTTOM, 0, 50);
         toast.show();
+    }
+
+    public static boolean testConnectivity(){
+        ConnectivityManager connectivityManager = (ConnectivityManager) application.getContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        return connectivityManager.getActiveNetworkInfo() != null && connectivityManager.getActiveNetworkInfo().isConnectedOrConnecting();
     }
 
 }

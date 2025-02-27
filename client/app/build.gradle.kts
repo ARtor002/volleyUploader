@@ -46,6 +46,9 @@ dependencies {
     implementation (libs.chaosleung.pinview)
 //    implementation(platform(libs.firebase.bom))
 //    implementation(libs.firebase.firestore)
+    implementation ("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+
 
 
 

@@ -111,7 +111,8 @@ public class EmailValidation_SignUp_Activity extends AppCompatActivity implement
         StringRequest stringRequest = new StringRequest(Request.Method.POST, app.LOCAL2 + "register.php",response -> {
             app.l(response);
             try {
-                email = getIntent().getExtras().getString("email");
+                email = getIntent().getStringExtra(Spref.EMAIL);
+                app.t(email + "===");
                 JSONObject jsonObject = new JSONObject(response);
                 String message = jsonObject.getString("message");
                 if (message.equals("okey")){
@@ -127,6 +128,7 @@ public class EmailValidation_SignUp_Activity extends AppCompatActivity implement
 
         },error -> {
             app.failedToast(getString(R.string.toastConnectFailed));
+            app.l(error.toString());
         }){
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {

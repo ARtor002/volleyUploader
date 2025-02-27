@@ -30,4 +30,15 @@
     <string name="fromCamera">عکس از دوربین</string>
     <string name="logOut">خروج از حساب</string>
     <string name="deleteAccount">حذف حساب کاربری</string>
+    <string name="permissionDeniedMessage">برای استفاده از دوربین و مشاهده فایل‌ها، لطفاً مجوز را تأیید کنید.</string>
+    <string name="settingBtn">تنظیمات</string>
+    <string name="permissionTitle">مجوز لازم است</string>
+    <string name="cancelBtn">لغو</string>
+    <string name="grantBtn">اعطای مجدد</string>
+    <string name="toastImageUploaded">عکس بارگزاری شد</string>
+    <string name="toastNoImageSelect">عکسی انتخاب نشد</string>
+    <string name="dialogMessage">آیا اطمینان دارید؟</string>
+    <string name="deleteTv">حذف</string>
+    <string name="toastDeleteSuccess">حذف با موفقیت انجام شد.</string>
+    <string name="downloadImage">‌ذخیره عکس</string>
 </resources>

@@ -29,6 +29,7 @@ import java.util.Map;
 import java.util.Random;
 
 import ir.ARtor.volley.R;
+import ir.ARtor.volley.app.Spref;
 import ir.ARtor.volley.app.app;
 
 public class SignUp_Activity extends AppCompatActivity implements View.OnClickListener {
@@ -102,7 +103,7 @@ public class SignUp_Activity extends AppCompatActivity implements View.OnClickLi
                 String message = jsonObject.getString("message");
                 if (message.equals("email-okey")){
                     startActivity(new Intent(SignUp_Activity.this, EmailValidation_SignUp_Activity.class).putExtra("code", code + "")
-                            .putExtra("email", email).putExtra("password", password));
+                            .putExtra(Spref.EMAIL, email).putExtra("password", password));
                 }else {
                     app.failedToast(getString(R.string.toastEmailExist));
                 }

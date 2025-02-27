@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">volley</string>
+    <string name="app_name">Volley Uploader</string>
     <string name="loginTv">Login</string>
     <string name="emailEdtHint">Email</string>
     <string name="passwordEdtHint">Password</string>
@@ -29,6 +29,18 @@
     <string name="fromCamera">From Camera</string>
     <string name="logOut">Log Out</string>
     <string name="deleteAccount">Delete Account</string>
+    <string name="toastImageUploaded">Image Uploaded</string>
+    <string name="toastNoImageSelect">No photo was selected</string>
+    <string name="dialogMessage">Are you sure?</string>
+    <string name="deleteTv">Delete</string>
+    <string name="toastDeleteSuccess">The deletion was successful.</string>
+    <!-- Permissions    -->
+    <string name="permissionTitle">Permission Needed</string>
+    <string name="permissionDeniedMessage">To use the camera and access files, please grant the required permissions.</string>
+    <string name="settingBtn">Settings</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="grantBtn">Grant Again</string>
+    <string name="downloadImage">Download Image</string>
 
 
 </resources>

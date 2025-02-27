@@ -105,6 +105,7 @@ public class ForgetPass_Activity extends AppCompatActivity implements View.OnCli
                             .putExtra("email", email));
                 }
             } catch (JSONException e) {
+                app.l(response);
                 throw new RuntimeException(e);
             }
         }, error -> {
