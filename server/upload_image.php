@@ -28,7 +28,6 @@ if ($response == 1) {
     echo json_encode($json);
     exit;
 }else {
-    echo $response;
     $json["message"] = "Failed";
     echo json_encode($json);
     exit;
